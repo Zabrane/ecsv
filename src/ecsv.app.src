@@ -1,0 +1,8 @@
+{application, ecsv,
+ [
+  {description, "Simple Erlang CSV parser"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [ kernel
+                 , stdlib ]}
+ ]}.
